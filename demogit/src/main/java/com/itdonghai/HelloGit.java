@@ -5,4 +5,9 @@ package com.itdonghai;
  * @date 2020/9/13
  */
 public class HelloGit {
+
+    public static void main(String[] args) {
+        System.out.println("hello git");
+        System.out.println("更新1");
+    }
 }
