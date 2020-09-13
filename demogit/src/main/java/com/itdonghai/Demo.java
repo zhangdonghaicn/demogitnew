@@ -14,9 +14,15 @@ public class Demo {
         System.out.println("创建test 分支");
         System.out.println("在线更新");
 
-        List list = new ArrayList();
+        List<String> list = new ArrayList<>();
 
         if (list != null) {
+
+            for (String s : list) {
+                synchronized (list.getClass()){
+
+                }
+            }
 
             // TODO: 2020/9/13  
             list.toArray();
