@@ -17,10 +17,12 @@ public class Demo {
         List list = new ArrayList();
 
         if (list != null) {
-            // TODO: 2020/9/13  
 
             // TODO: 2020/9/13  
-            // TODO: 2020/9/13  
+            list.toArray();
+            list.toArray();
+            // TODO: 2020/9/13
+            // TODO: 2020/9/13
         }
     }
 }
